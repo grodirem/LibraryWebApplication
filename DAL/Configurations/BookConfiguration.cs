@@ -43,8 +43,5 @@ public class BookConfiguration : IEntityTypeConfiguration<Book>
 
         builder.Property(b => b.IsBorrowed)
             .IsRequired();
-
-        builder.Property(b => b.ImageURL)
-            .IsRequired(false);
     }
 }

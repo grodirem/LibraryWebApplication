@@ -81,7 +81,7 @@ namespace DAL.Migrations
                         .HasMaxLength(13)
                         .HasColumnType("nvarchar(13)");
 
-                    b.Property<string>("ImageURL")
+                    b.Property<string>("ImagePath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsBorrowed")
@@ -184,7 +184,7 @@ namespace DAL.Migrations
                         {
                             Id = "5e6f7g8h-e5f6-7890-1234-56789abcdef5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "08bfa540-dd2a-4ab8-b180-53921b1f9692",
+                            ConcurrencyStamp = "905696bc-f498-4852-aba8-0ae95a2fa447",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "a",
@@ -192,7 +192,7 @@ namespace DAL.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "A",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMsxnFVeuRXGsg9UwdbSoO5JAqfSE7Bo/cDC6yHTeM6z8y3HSFmcpX2nQPf8fo2edg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEO71Msglj4PiPQ+n8/s+6aIDo64mTsxEzN50DCLjtwT/E6CxlEypVqH8Nd2xnglCnQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "fixed-security-stamp",
                             TwoFactorEnabled = false,

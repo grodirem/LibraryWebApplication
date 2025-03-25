@@ -86,7 +86,7 @@ namespace DAL.Migrations
                     BorrowedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ReturnBy = table.Column<DateTime>(type: "datetime2", nullable: true),
                     IsBorrowed = table.Column<bool>(type: "bit", nullable: false),
-                    ImageURL = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    ImagePath = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -211,7 +211,7 @@ namespace DAL.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenExpiryTime", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "5e6f7g8h-e5f6-7890-1234-56789abcdef5", 0, "08bfa540-dd2a-4ab8-b180-53921b1f9692", "admin@gmail.com", true, "a", "a", false, null, "ADMIN@GMAIL.COM", "A", "AQAAAAIAAYagAAAAEMsxnFVeuRXGsg9UwdbSoO5JAqfSE7Bo/cDC6yHTeM6z8y3HSFmcpX2nQPf8fo2edg==", null, false, null, null, "fixed-security-stamp", false, "a" });
+                values: new object[] { "5e6f7g8h-e5f6-7890-1234-56789abcdef5", 0, "905696bc-f498-4852-aba8-0ae95a2fa447", "admin@gmail.com", true, "a", "a", false, null, "ADMIN@GMAIL.COM", "A", "AQAAAAIAAYagAAAAEO71Msglj4PiPQ+n8/s+6aIDo64mTsxEzN50DCLjtwT/E6CxlEypVqH8Nd2xnglCnQ==", null, false, null, null, "fixed-security-stamp", false, "a" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
